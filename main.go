@@ -847,7 +847,7 @@ out3:
 				}
 				pqueue = pqueue[1:]
 			}
-			//this is where the pathfinding stops
+			//this is where the pathfinding stops (thank god)
 			//below the code goes backwards from the pacman's cell to the ghost's cell
 			//in order to determine which direction to pick
 			//pfound variable is reused till the code finds its way back
